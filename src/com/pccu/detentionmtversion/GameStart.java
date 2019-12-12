@@ -4,9 +4,8 @@ public class GameStart {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		IntelligenceCenter infoCenterD = new IntelligenceCenter();
 		IntelligenceCenter infoCenterA = new IntelligenceCenter();
-		
 		Scene sceneA = new Scene() {
 			@Override
 			public Events getEvent(int cnt) {
